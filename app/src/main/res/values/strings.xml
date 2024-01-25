@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BlocDeNotas_Ficheros</string>
+    <string name="guardar">Guardar</string>
+    <string name="conciertos">Conciertos</string>
+    <string name="viajes">Viajes</string>
+    <string name="urgente">Urgente</string>
+    <string name="deportes">Deportes</string>
+</resources>

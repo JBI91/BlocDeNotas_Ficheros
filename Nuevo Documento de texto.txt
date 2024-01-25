@@ -1,0 +1,26 @@
+GUI:
+
+Pantalla Principal:
+ImageView. Representan 10 temáticas {Urgente, Viajes, Conciertos, Familia, Amigos, Deportes, Cultura, Comida, Internet y Cine}.
+TextView. Textos con el nombre de cada temática.
+Pantalla Edición:
+MaterialToolbar.
+Title.
+Icon. Representa "check".
+EditText. Multilínea.
+
+
+Funcionalidad:
+
+Pantalla Principal:
+
+Debe permitir hacer scroll para visualizar las 10 temáticas, tanto en horizontal como en vertical con un único diseño de layout.
+Al hacer clic sobre algún ImageView abrir la pantalla Edición con la temática seleccionada.
+
+Pantalla Edición:
+
+Cada nota se almacena en un fichero de nombre igual a la temática y con extensión (.txt).
+Al iniciar la pantalla, el elemento EditText multilinea muestra el contenido almacenado en el fichero correspondiente.
+El elemento MaterialToolBar tiene un color asociado a la temática.
+El elemento Titulo del MaterialToolBar es el nombre de la temática.
+Al hacer clic sobre el elemento Icon que representa check guardar el contenido del elemento EditText multilinea en el fichero correspondiente. Después, cerrar la pantalla Edición.
